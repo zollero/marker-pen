@@ -1,0 +1,32 @@
+{
+  "name": "marker-pen",
+  "version": "0.1.0",
+  "description": "A tool to mark text, icon or line on a photo or a page.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/acorn": "^4.0.3",
+    "@types/chokidar": "^1.7.5",
+    "magic-string": "^0.24.0",
+    "rollup": "^0.58.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "source-map": "^0.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zollero/marker-pen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zollero/marker-pen/issues"
+  },
+  "homepage": "https://github.com/zollero/marker-pen#readme"
+}
